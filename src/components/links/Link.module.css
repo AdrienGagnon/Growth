@@ -1,0 +1,48 @@
+.link,
+.link-arrow,
+.linkdark {
+	color: var(--color-black);
+	font-size: var(--fs-400);
+	font-style: normal;
+	font-weight: var(--fw-500);
+	line-height: 150%;
+	text-decoration: none;
+}
+
+.link-arrow {
+	display: flex;
+	width: 12.8rem;
+	height: 2.5rem;
+	justify-content: center;
+	align-items: center;
+	gap: 0.8rem;
+	flex-shrink: 0;
+	font-family: Inter, sans-serif;
+	font-weight: var(--fw-600);
+}
+
+.link:hover,
+.link-arrow:hover {
+	color: var(--color-blue-600);
+}
+
+.link-arrow:hover .arrow {
+	transform: rotate(0);
+}
+
+.arrow {
+	width: 1.3182rem;
+	height: 1.1455rem;
+	transform: rotate(90deg);
+	flex-shrink: 0;
+	transition: transform 300ms ease-in-out;
+}
+
+.linkdark {
+	color: #bcc2c3;
+	font-weight: 400;
+}
+
+.linkdark:hover {
+	color: var(--color-grey-200);
+}

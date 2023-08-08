@@ -1,0 +1,21 @@
+.logo {
+	display: inline-flex;
+	align-items: flex-start;
+	gap: 0.8rem;
+}
+
+.logo.black {
+	color: var(--color-black);
+}
+
+.logo.white {
+	color: var(--color-white-100);
+}
+
+.logo p {
+	font-feature-settings: "clig" off, "liga" off;
+	font-size: 2.8rem;
+	font-style: normal;
+	font-weight: var(--fw-600);
+	line-height: 3.2rem;
+}

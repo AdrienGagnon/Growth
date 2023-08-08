@@ -1,0 +1,18 @@
+.pricing {
+	padding: 7.2rem 1.6rem;
+}
+
+.pricing__title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2.4rem;
+}
+
+.pricing__title p {
+	text-align: center;
+	font-size: 1.6rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 160%; /* 2.56rem */
+}

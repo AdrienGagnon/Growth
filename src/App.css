@@ -1,14 +1,17 @@
 :root {
-	--color-blue-300: #daf4fe;
+	--color-blue-200: #daf4fe;
 	--color-blue-500: #4891ff;
+	--color-blue-600: #1570f9;
 
 	--color-white-100: #fff;
 	--color-white-200: #fafafa;
 
+	--color-grey-200: #dfdee2;
 	--color-grey-300: #f4f4f6;
 	--color-grey-400: #f5f5f5;
 	--color-grey-500: #bcc2c3;
 	--color-grey-700: #494a4d;
+	--color-grey-800: #494949;
 
 	--color-black: #131316;
 
@@ -51,4 +54,23 @@ html {
 
 body {
 	background-color: var(--color-white-100);
+	line-height: 1.6rem;
+}
+
+h2 {
+	text-align: center;
+	font-feature-settings: "clig" off, "liga" off;
+	font-size: var(--fs-800);
+	font-weight: var(--fw-500);
+	line-height: 120%;
+	letter-spacing: -0.1rem;
+	max-width: 76.7rem;
+}
+
+h3 {
+	font-feature-settings: "clig" off, "liga" off;
+	font-size: 3.6rem;
+	font-weight: 500;
+	line-height: 120%; /* 4.32rem */
+	letter-spacing: -0.036rem;
 }
