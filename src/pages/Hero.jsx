@@ -4,7 +4,7 @@ import styles from "./Hero.module.css";
 
 function Hero() {
 	return (
-		<div className={styles["hero"]}>
+		<section className={styles["hero"]}>
 			<div className={styles["hero__container"]}>
 				<div className={styles["hero__title"]}>
 					<h1>A powerful solution to grow your startup. Fast!</h1>
@@ -35,7 +35,7 @@ function Hero() {
 				<div className={styles["hero__images__chart"]}></div>
 				<div className={styles["hero__images__call"]}></div>
 			</div>
-		</div>
+		</section>
 	);
 }
 

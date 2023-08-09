@@ -2,7 +2,7 @@ import styles from "./Testimonials.module.css";
 
 function Testimonials() {
 	return (
-		<div className={styles["testimonials"]}>
+		<section className={styles["testimonials"]}>
 			<h2>
 				Don't just take our word for it, see the success stories from
 				businesses just like yours.
@@ -62,7 +62,7 @@ function Testimonials() {
 					</blockquote>
 				</li>
 			</ul>
-		</div>
+		</section>
 	);
 }
 

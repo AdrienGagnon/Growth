@@ -1,16 +1,16 @@
-header {
+.header {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	padding: 2rem 9.7rem 2rem 9.6rem;
 }
 
-header nav {
+.header nav {
 	margin-left: auto;
 	display: flex;
 	gap: 4rem;
 }
 
-header button {
+.header button {
 	margin-left: 6.33rem;
 }

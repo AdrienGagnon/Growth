@@ -15,14 +15,14 @@ function LinkArrow({ link, children }) {
 				<path
 					d="M6.5 0.90918L6.5 14.091"
 					stroke="#131316"
-					stroke-width="2"
-					stroke-miterlimit="10"
+					strokeWidth="2"
+					strokeMiterlimit="10"
 				/>
 				<path
 					d="M0.772751 8.3623L6.50002 14.0896L12.2273 8.3623"
 					stroke="#131316"
-					stroke-width="2"
-					stroke-linejoin="round"
+					strokeWidth="2"
+					strokeLinejoin="round"
 				/>
 			</svg>
 		</a>

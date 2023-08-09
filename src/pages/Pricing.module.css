@@ -7,12 +7,150 @@
 	flex-direction: column;
 	align-items: center;
 	gap: 2.4rem;
+	margin-bottom: 6.4rem;
 }
 
 .pricing__title p {
 	text-align: center;
 	font-size: 1.6rem;
 	font-style: normal;
+	font-weight: 400;
+	line-height: 160%; /* 2.56rem */
+}
+
+/* Card */
+
+.pricing__cards {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 4.8rem;
+	gap: 2.4rem;
+}
+
+.simple {
+	background: var(--color-white-200);
+}
+
+.premium {
+	background: var(--color-black);
+	color: var(--color-white-100);
+}
+
+.pricing__card {
+	border-radius: 1.6rem;
+	padding: 5.6rem;
+	max-width: 40rem;
+}
+
+.pricing__card__title {
+	margin-bottom: 3.2rem;
+}
+
+.pricing__card__title h3 {
+	margin-bottom: 1.6rem;
+}
+
+.pricing__card__title p {
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 160%; /* 2.56rem */
+}
+
+.simple .pricing__card__title p {
+	color: var(--color-grey-700);
+}
+
+.premium .pricing__card__title p {
+	color: var(--color-grey-100);
+}
+
+.pricing__card__price {
+	display: flex;
+	align-items: baseline;
+	gap: 0.8rem;
+	margin-bottom: 2.4rem;
+}
+
+.simple .pricing__card__price p {
+	font-feature-settings: "clig" off, "liga" off;
+	font-size: 1.4rem;
+	font-weight: 400;
+	line-height: 120%; /* 1.68rem */
+	letter-spacing: -0.014rem;
+}
+
+.premium .pricing__card__price p {
+	font-feature-settings: "clig" off, "liga" off;
+	font-size: 2rem;
+	font-weight: 400;
+	line-height: 120%; /* 2.4rem */
+	letter-spacing: -0.02rem;
+}
+
+.pricing__card__separator {
+	width: 90%;
+	height: 2px;
+	margin-bottom: 3.2rem;
+}
+
+.simple .pricing__card__separator {
+	background: var(--color-grey-200);
+}
+
+.premium .pricing__card__separator {
+	background: var(--color-grey-800);
+}
+
+.pricing__card__list {
+	display: inline-flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-bottom: 3.2rem;
+	gap: 1.2rem;
+}
+
+.pricing__card__list ul {
+	display: flex;
+	flex-direction: column;
+	gap: 1.2rem;
+}
+
+.pricing__card__list li {
+	margin-left: 2.6rem;
+}
+
+.simple .pricing__card__list li {
+	list-style-image: url(../assets/checkmarkblack.svg);
+}
+
+.premium .pricing__card__list li {
+	list-style-image: url(../assets/checkmarkwhite.svg);
+}
+
+.pricing__card__list p {
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 160%; /* 2.56rem */
+}
+
+.pricing__card button {
+	width: 100%;
+}
+
+/* footer */
+
+.pricing__footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1.65rem;
+}
+
+.pricing__footer p {
+	font-size: 1.6rem;
 	font-weight: 400;
 	line-height: 160%; /* 2.56rem */
 }

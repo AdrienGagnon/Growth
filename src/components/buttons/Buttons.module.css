@@ -38,6 +38,10 @@
 	color: var(--color-white-100);
 }
 
+.button__secondary:hover path {
+	stroke: var(--color-white-100);
+}
+
 .button__secondary,
 .button__secondary--small {
 	color: var(--color-black);

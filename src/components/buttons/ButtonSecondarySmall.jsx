@@ -2,7 +2,9 @@ import styles from "./Buttons.module.css";
 
 function ButtonSecondarySmall({ children }) {
 	return (
-		<button className={styles["button__primary--small"]}>{children}</button>
+		<button className={styles["button__secondary--small"]}>
+			{children}
+		</button>
 	);
 }
 

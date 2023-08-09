@@ -1,18 +1,18 @@
 import styles from "./Header.module.css";
-import ButtonSecondary from "../components/buttons/ButtonSecondary";
 import Link from "../components/links/Link";
 import Logo from "../components/titles/logo";
+import ButtonSecondarySmall from "../components/buttons/ButtonSecondarySmall";
 
 function Header() {
 	return (
-		<header>
+		<header className={styles.header}>
 			<Logo color="black" />
 			<nav>
 				<Link link={"#"}>{"Features"}</Link>
 				<Link link={"#"}>{"About us"}</Link>
 				<Link link={"#"}>{"Blog"}</Link>
 			</nav>
-			<ButtonSecondary>{"Log in"}</ButtonSecondary>
+			<ButtonSecondarySmall>{"Log in"}</ButtonSecondarySmall>
 		</header>
 	);
 }

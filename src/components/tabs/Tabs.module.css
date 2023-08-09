@@ -1,0 +1,35 @@
+.tabs {
+	display: flex;
+	flex-direction: row;
+	flex-shrink: 0;
+	align-items: flex-start;
+	border-radius: 0.8rem;
+	background: var(--color-grey-300);
+	padding: 0.81rem;
+	width: fit-content;
+	gap: 0.8rem;
+}
+
+.tabs__btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1.2rem 2.4rem;
+	gap: 1rem;
+	border-radius: 0.8rem;
+	border: none;
+
+	font-size: 1.6rem;
+	font-weight: 500;
+	line-height: 150%; /* 2.4rem */
+	cursor: pointer;
+}
+
+.tabs__btn[data-tab="false"]:hover {
+	background: var(--color-blue-300);
+}
+
+.tabs__btn[data-tab="true"] {
+	background: var(--color-blue-500);
+	color: var(--color-white-100);
+}

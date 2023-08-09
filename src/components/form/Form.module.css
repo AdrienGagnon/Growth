@@ -1,0 +1,22 @@
+.form {
+	display: flex;
+	flex-direction: row;
+	gap: 1.62rem;
+}
+
+.form input {
+	text-align: left;
+	color: var(--color-grey-600);
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 150%; /* 2.4rem */
+
+	padding: 1.2rem 2.4rem 1.2rem 1.2rem;
+	border-radius: 0.8rem;
+	border: 1px solid var(--color-grey-450);
+}
+
+.form input:active,
+.form input:focus {
+	border: 1px solid var(--color-blue-500);
+}

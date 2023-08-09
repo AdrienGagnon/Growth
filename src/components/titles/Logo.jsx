@@ -14,8 +14,8 @@ function Logo({ color }) {
 				<path
 					d="M3.41743 9.57748L13.776 2.99977"
 					stroke="#4891FF"
-					stroke-width="6"
-					stroke-linecap="round"
+					strokeWidth="6"
+					strokeLinecap="round"
 				/>
 			</svg>
 		</div>
