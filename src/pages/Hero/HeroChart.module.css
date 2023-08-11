@@ -1,0 +1,19 @@
+/* Chart */
+
+.hero__images__chart {
+	width: 500px;
+	height: 500px;
+	background: var(--color-black);
+	border-radius: 1.6rem;
+}
+
+.hero__images__chart h4 {
+	color: var(--color-white-100);
+	font-feature-settings: "clig" off, "liga" off;
+	font-size: 2rem;
+	font-weight: 600;
+	line-height: 120%; /* 2.4rem */
+}
+
+.hero__images__call {
+}
