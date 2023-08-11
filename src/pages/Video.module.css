@@ -6,6 +6,7 @@
 	flex-direction: column;
 	background: var(--color-black);
 	padding-block: 9.6rem;
+	padding-inline: 1.6rem;
 }
 
 .video::after {
@@ -26,8 +27,17 @@
 
 .video img {
 	max-width: 83.5rem;
-	margin-bottom: 6.4rem;
 	max-width: 100%;
 	aspect-ratio: 16/9;
-	padding-inline: 1.6rem;
+}
+
+.video__container {
+	position: relative;
+	margin-bottom: 6.4rem;
+}
+
+@media screen and (max-width: 500px) {
+	.video button {
+		width: 100%;
+	}
 }

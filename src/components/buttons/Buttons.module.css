@@ -12,8 +12,7 @@
 	border: none;
 
 	color: var(--color-white-100);
-	font-size: var(--fs-500);
-	font-style: normal;
+	font-size: clamp(1.6rem, 3vw, var(--fs-500));
 	font-weight: 500;
 	line-height: 150%;
 

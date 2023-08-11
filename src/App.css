@@ -4,6 +4,8 @@
 	--color-blue-500: #4891ff;
 	--color-blue-600: #1570f9;
 
+	--color-yellow: #f6fee0;
+
 	--color-white-100: #fff;
 	--color-white-200: #fafafa;
 
@@ -65,7 +67,7 @@ body {
 h2 {
 	text-align: center;
 	font-feature-settings: "clig" off, "liga" off;
-	font-size: var(--fs-800);
+	font-size: clamp(3.2rem, 5vw, var(--fs-800));
 	font-weight: var(--fw-500);
 	line-height: 120%;
 	letter-spacing: -0.1rem;
@@ -74,7 +76,7 @@ h2 {
 
 h3 {
 	font-feature-settings: "clig" off, "liga" off;
-	font-size: 3.6rem;
+	font-size: clamp(2.8rem, 3vw, 3.6rem);
 	font-weight: 500;
 	line-height: 120%; /* 4.32rem */
 	letter-spacing: -0.036rem;

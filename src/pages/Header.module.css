@@ -14,3 +14,13 @@
 .header button {
 	margin-left: 6.33rem;
 }
+
+.header__btn-dropdown {
+	margin-left: auto;
+}
+
+@media screen and (max-width: 1000px) {
+	.header {
+		padding: 2.8rem 1.6rem;
+	}
+}

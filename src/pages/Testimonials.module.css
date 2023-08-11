@@ -1,6 +1,7 @@
 .testimonials {
 	background: var(--color-black);
 	padding: 9.6rem 8.5rem;
+	user-select: none;
 }
 
 .testimonials h2 {
@@ -15,6 +16,11 @@
 	display: flex;
 	flex-direction: row;
 	gap: 2.4rem;
+	overflow-x: scroll;
+}
+
+.testimonials__container::-webkit-scrollbar {
+	display: none;
 }
 
 .testimonials__card {
@@ -33,21 +39,47 @@
 .testimonials__card footer span {
 	width: 32rem;
 	font-feature-settings: "clig" off, "liga" off;
-	font-size: 2rem;
+	font-size: clamp(1.6rem, 3vw, 2rem);
 	font-style: italic;
 	font-weight: 400;
 	line-height: 150%; /* 3rem */
 }
 
 .testimonials__card footer p {
-	font-size: 1.8rem;
+	font-size: clamp(1.6rem, 3vw, 1.8rem);
 	font-style: normal;
 	font-weight: 500;
 	line-height: 150%; /* 2.7rem TODO*/
 }
 
 .testimonials__card footer span {
-	font-size: 1.6rem;
+	font-size: 1.6rem, 3vw, 1.6rem;
 	font-style: normal;
 	line-height: 150%; /* 2.4rem */
+}
+
+@media screen and (max-width: 1000px) {
+	.testimonials {
+		padding: 6.4rem 1.6rem;
+	}
+
+	.testimonials__container {
+		flex-direction: column;
+		overflow-x: visible;
+	}
+
+	.testimonials__card p,
+	.testimonials__card footer {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.testimonials__container {
+		cursor: grab;
+	}
+
+	.testimonials__container:active {
+		cursor: grabbing;
+	}
 }

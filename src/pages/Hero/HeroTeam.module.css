@@ -1,0 +1,161 @@
+/* Description and Agenda */
+
+.hero__team {
+	display: flex;
+	flex-direction: row;
+	border-radius: 1.6rem;
+	border: 1px solid var(--color-grey-200);
+	padding: 3.1rem 4.1rem 3.6rem 3.6rem;
+	width: fit-content;
+	flex: 1 1 0;
+	gap: clamp(4.04rem, 3vw, 7.2rem);
+	width: 100%;
+}
+
+.team__title {
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	align-items: start;
+	max-width: 30%;
+}
+
+.team__title h2 {
+	text-align: left;
+	font-feature-settings: "clig" off, "liga" off;
+	font-size: clamp(1.3451rem, 3vw, 2rem);
+	font-weight: 600;
+	line-height: 120%; /* 2.4rem */
+	margin-bottom: 0.8rem;
+}
+
+.team__title p {
+	font-size: clamp(0.5605rem, 3vw, 1rem);
+	font-weight: 400;
+	line-height: normal;
+}
+
+.team__separator {
+	height: 1px;
+	width: 100%;
+	background: var(--color-grey-200);
+	margin-block: 2.4rem;
+}
+
+.team__imgs {
+	display: flex;
+}
+
+.team__imgs img:nth-child(2) {
+	translate: -0.8rem 0;
+}
+
+.team__imgs img:nth-child(3) {
+	translate: -1.6rem 0;
+}
+
+.person1,
+.person2,
+.person3 {
+	--_img-background: var(--color-yellow);
+	border-radius: 50%;
+	width: 4rem;
+	background: var(--_img-background);
+}
+
+.person2 {
+	--_img-background: var(--color-blue-200);
+}
+
+.person3 {
+	--_img-background: var(--color-white-100);
+}
+
+.team__agenda {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 1.1rem;
+	max-width: 40rem;
+	padding-block: 2rem;
+	flex-grow: 1;
+}
+
+.line {
+	position: absolute;
+	height: 100%;
+	width: 1px;
+	top: 0;
+	background: var(--color-grey-200);
+	z-index: -1;
+}
+
+.line:nth-child(1) {
+	left: 0.7rem;
+}
+
+.line:nth-child(2) {
+	background: var(--color-black);
+	left: 33%;
+}
+
+.line:nth-child(3) {
+	right: 33%;
+}
+
+.line:nth-child(4) {
+	right: 0.7rem;
+}
+
+.agenda__item {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 0.6rem;
+	padding-inline: 1.5rem;
+	border-radius: 0.8rem;
+	min-width: 21rem;
+	min-height: 4.8rem;
+}
+
+.agenda__item p {
+	font-size: 1rem;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.agenda__imgs img {
+	vertical-align: middle;
+}
+
+.agenda__item--1 {
+	background: var(--color-grey-400);
+	margin-right: auto;
+}
+
+.agenda__item--2 {
+	background: var(--color-yellow);
+}
+
+.agenda__item--3 {
+	background: var(--color-blue-200);
+}
+
+.agenda__item--2,
+.agenda__item--3 {
+	margin-left: auto;
+}
+
+.agenda__imgs img:nth-child(2) {
+	translate: -0.48rem 0;
+}
+
+.agenda__imgs img:nth-child(3) {
+	translate: -0.96rem 0;
+}
+
+@media screen and (max-width: 1000px) {
+	.hero__team {
+		padding: 1.74rem 1.85rem 2.02rem 2.02rem;
+	}
+}

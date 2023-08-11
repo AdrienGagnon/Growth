@@ -1,0 +1,38 @@
+.hero {
+	padding: 7.2rem 9.6rem;
+}
+
+.hero__wrapper {
+	display: flex;
+	flex-direction: column;
+	margin-inline: auto;
+	max-width: 144rem;
+}
+
+.hero h1 {
+	font-feature-settings: "clig" off, "liga" off;
+	font-size: clamp(3.6rem, 5vw, 6.4rem);
+	font-weight: 500;
+	line-height: 110%;
+	letter-spacing: -0.2rem;
+	max-width: 83rem;
+	margin-bottom: 2.4rem;
+}
+
+@media screen and (max-width: 1000px) {
+	.hero {
+		padding: 5.6rem 1.6rem 3.17rem;
+	}
+
+	.hero h1,
+	.hero__description {
+		text-align: center;
+	}
+}
+
+.hero__description {
+	font-size: clamp(1.8rem, 4vw, 2rem);
+	font-weight: 400;
+	line-height: 160%;
+	max-width: 61rem;
+}
