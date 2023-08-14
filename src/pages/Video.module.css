@@ -41,3 +41,8 @@
 		width: 100%;
 	}
 }
+
+.video__container {
+	position: relative;
+	margin-bottom: 6.4rem;
+}

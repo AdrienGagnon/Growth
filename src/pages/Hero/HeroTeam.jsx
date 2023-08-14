@@ -1,4 +1,8 @@
 import styles from "./HeroTeam.module.css";
+<<<<<<< HEAD
+=======
+import person1Big from "../../assets/hero/person-1-big.png";
+>>>>>>> e9488107f3a04cfed3d50d90ed6d6783c3ba293f
 import person1Small from "../../assets/hero/person-1-small.png";
 import person2Small from "../../assets/hero/person-2-small.png";
 import person3Small from "../../assets/hero/person-3-small.png";
@@ -10,7 +14,14 @@ function HeroTeam() {
 				<h2>
 					Team <br /> Capodopera
 				</h2>
+<<<<<<< HEAD
 				<p>Grow the number of clients and reach the 1000/day sales.</p>
+=======
+				<p>
+					Grow the number of clients and <br /> reach the 1000/day
+					sales.
+				</p>
+>>>>>>> e9488107f3a04cfed3d50d90ed6d6783c3ba293f
 				<div className={styles["team__separator"]}></div>
 				<div className={styles["team__imgs"]}>
 					<img

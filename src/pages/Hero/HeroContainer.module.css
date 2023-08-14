@@ -2,7 +2,10 @@
 	display: inline-flex;
 	flex-direction: row;
 	gap: 4rem;
+<<<<<<< HEAD
 	width: 100%;
+=======
+>>>>>>> e9488107f3a04cfed3d50d90ed6d6783c3ba293f
 }
 
 .hero__btns {
@@ -18,14 +21,18 @@
 	flex-direction: column;
 	justify-content: space-between;
 	margin-top: 4rem;
+<<<<<<< HEAD
 	flex: 1 1 0;
 	max-width: 61rem;
+=======
+>>>>>>> e9488107f3a04cfed3d50d90ed6d6783c3ba293f
 }
 
 .hero__second {
 	display: flex;
 	flex-direction: row;
 	gap: 2.3rem;
+<<<<<<< HEAD
 	flex: 1 1 0;
 }
 
@@ -42,4 +49,6 @@
 	.hero__btns button {
 		width: 100%;
 	}
+=======
+>>>>>>> e9488107f3a04cfed3d50d90ed6d6783c3ba293f
 }

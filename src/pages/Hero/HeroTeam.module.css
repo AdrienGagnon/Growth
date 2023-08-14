@@ -6,10 +6,15 @@
 	border-radius: 1.6rem;
 	border: 1px solid var(--color-grey-200);
 	padding: 3.1rem 4.1rem 3.6rem 3.6rem;
+<<<<<<< HEAD
 	width: fit-content;
 	flex: 1 1 0;
 	gap: clamp(4.04rem, 3vw, 7.2rem);
 	width: 100%;
+=======
+	gap: 7.2rem;
+	width: fit-content;
+>>>>>>> e9488107f3a04cfed3d50d90ed6d6783c3ba293f
 }
 
 .team__title {
@@ -17,12 +22,16 @@
 	flex-direction: column;
 	justify-content: left;
 	align-items: start;
+<<<<<<< HEAD
 	max-width: 30%;
+=======
+>>>>>>> e9488107f3a04cfed3d50d90ed6d6783c3ba293f
 }
 
 .team__title h2 {
 	text-align: left;
 	font-feature-settings: "clig" off, "liga" off;
+<<<<<<< HEAD
 	font-size: clamp(1.3451rem, 3vw, 2rem);
 	font-weight: 600;
 	line-height: 120%; /* 2.4rem */
@@ -31,6 +40,15 @@
 
 .team__title p {
 	font-size: clamp(0.5605rem, 3vw, 1rem);
+=======
+	font-size: 2rem;
+	font-weight: 600;
+	line-height: 120%; /* 2.4rem */
+}
+
+.team__title p {
+	font-size: 1rem;
+>>>>>>> e9488107f3a04cfed3d50d90ed6d6783c3ba293f
 	font-weight: 400;
 	line-height: normal;
 }
@@ -39,7 +57,10 @@
 	height: 1px;
 	width: 100%;
 	background: var(--color-grey-200);
+<<<<<<< HEAD
 	margin-block: 2.4rem;
+=======
+>>>>>>> e9488107f3a04cfed3d50d90ed6d6783c3ba293f
 }
 
 .team__imgs {
@@ -76,9 +97,14 @@
 	display: flex;
 	flex-direction: column;
 	gap: 1.1rem;
+<<<<<<< HEAD
 	max-width: 40rem;
 	padding-block: 2rem;
 	flex-grow: 1;
+=======
+	width: 31rem;
+	padding-block: 2rem;
+>>>>>>> e9488107f3a04cfed3d50d90ed6d6783c3ba293f
 }
 
 .line {
@@ -153,9 +179,12 @@
 .agenda__imgs img:nth-child(3) {
 	translate: -0.96rem 0;
 }
+<<<<<<< HEAD
 
 @media screen and (max-width: 1000px) {
 	.hero__team {
 		padding: 1.74rem 1.85rem 2.02rem 2.02rem;
 	}
 }
+=======
+>>>>>>> e9488107f3a04cfed3d50d90ed6d6783c3ba293f

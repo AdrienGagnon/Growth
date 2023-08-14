@@ -1,12 +1,19 @@
 /* Chart */
 
 .hero__images__chart {
+<<<<<<< HEAD
 	display: flex;
 	flex-direction: column;
 	flex-grow: 1;
 	background: var(--color-black);
 	border-radius: 1.6rem;
 	padding: 6rem 3.6rem 4.3rem;
+=======
+	width: 500px;
+	height: 500px;
+	background: var(--color-black);
+	border-radius: 1.6rem;
+>>>>>>> e9488107f3a04cfed3d50d90ed6d6783c3ba293f
 }
 
 .hero__images__chart h4 {
@@ -15,6 +22,7 @@
 	font-size: 2rem;
 	font-weight: 600;
 	line-height: 120%; /* 2.4rem */
+<<<<<<< HEAD
 	margin-bottom: 2.5rem;
 }
 
@@ -100,4 +108,9 @@
 .chart__lines--small {
 	width: 100%;
 	height: 60%;
+=======
+}
+
+.hero__images__call {
+>>>>>>> e9488107f3a04cfed3d50d90ed6d6783c3ba293f
 }

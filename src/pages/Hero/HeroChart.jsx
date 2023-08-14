@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState, useEffect } from "react";
 
 import styles from "./HeroChart.module.css";
@@ -14,10 +15,19 @@ function HeroChart() {
 		return () => window.removeEventListener("resize", handleResize);
 	}, []);
 
+=======
+import styles from "./HeroChart.module.css";
+import person1Small from "../../assets/hero/person-1-small.png";
+import person2Small from "../../assets/hero/person-2-small.png";
+import person3Small from "../../assets/hero/person-3-small.png";
+
+function HeroChart() {
+>>>>>>> e9488107f3a04cfed3d50d90ed6d6783c3ba293f
 	return (
 		<div className={styles["hero__images__chart"]}>
 			<h4>Growth</h4>
 			<div className={styles.chart}>
+<<<<<<< HEAD
 				<span></span>
 				<span></span>
 				<span></span>
@@ -110,6 +120,17 @@ function HeroChart() {
 						/>
 					</svg>
 				)}
+=======
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div>
+					<p>Jan 16</p>
+					<p>$120 / 3 Sales</p>
+				</div>
+>>>>>>> e9488107f3a04cfed3d50d90ed6d6783c3ba293f
 			</div>
 		</div>
 	);
