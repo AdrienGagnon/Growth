@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Tabs from "../components/tabs/tabs";
+import Tabs from "../components/tabs/Tabs";
 import styles from "./FAQ.module.css";
 
 function FAQ() {
