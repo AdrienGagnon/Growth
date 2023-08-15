@@ -1,5 +1,4 @@
 .hero {
-<<<<<<< HEAD
 	padding: 7.2rem 9.6rem;
 }
 
@@ -13,21 +12,10 @@
 .hero h1 {
 	font-feature-settings: "clig" off, "liga" off;
 	font-size: clamp(3.6rem, 5vw, 6.4rem);
-=======
-	/* TODO: remove */
-	min-height: 80rem;
-	padding: 7.2rem 9.6rem;
-}
-
-.hero h1 {
-	font-feature-settings: "clig" off, "liga" off;
-	font-size: 6.4rem;
->>>>>>> e9488107f3a04cfed3d50d90ed6d6783c3ba293f
 	font-weight: 500;
 	line-height: 110%;
 	letter-spacing: -0.2rem;
 	max-width: 83rem;
-<<<<<<< HEAD
 	margin-bottom: 2.4rem;
 }
 
@@ -44,12 +32,6 @@
 
 .hero__description {
 	font-size: clamp(1.8rem, 4vw, 2rem);
-=======
-}
-
-.hero__description {
-	font-size: 2rem;
->>>>>>> e9488107f3a04cfed3d50d90ed6d6783c3ba293f
 	font-weight: 400;
 	line-height: 160%;
 	max-width: 61rem;
