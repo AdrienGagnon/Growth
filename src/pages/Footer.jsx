@@ -1,9 +1,8 @@
 import styles from "./Footer.module.css";
-import Form from "../components/form/form";
-import Logo from "../components/titles/logo";
+import Form from "../components/form/Form";
+import Logo from "../components/titles/Logo";
 import Twitter from "../assets/Twitter.png";
 import LinkedIn from "../assets/LinkedIn.png";
-import { Link } from "react-router-dom";
 import LinkDark from "../components/links/LinkDark";
 
 function Footer() {

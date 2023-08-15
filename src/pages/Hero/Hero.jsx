@@ -1,8 +1,6 @@
 import styles from "./Hero.module.css";
 import HeroContainer from "./HeroContainer";
 
-import HeroImages from "./HeroChart";
-
 function Hero() {
 	return (
 		<section className={styles["hero"]}>
