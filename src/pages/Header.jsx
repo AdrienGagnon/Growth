@@ -1,6 +1,6 @@
 import styles from "./Header.module.css";
 import Link from "../components/links/Link";
-import Logo from "../components/titles/logo";
+import Logo from "../components/titles/Logo";
 import ButtonSecondarySmall from "../components/buttons/ButtonSecondarySmall";
 import { useEffect, useState } from "react";
 
