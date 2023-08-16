@@ -23,15 +23,25 @@
 }
 
 .hero__second {
+	position: relative;
 	display: flex;
 	flex-direction: row;
 	gap: 2.3rem;
 	flex: 1 1 0;
+	width: 100%;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1500px) {
+	.hero__second {
+		height: 30rem;
+		align-self: end;
+	}
 }
 
 @media screen and (max-width: 1000px) {
 	.hero__container {
 		flex-direction: column;
+		align-items: center;
 	}
 }
 

@@ -23,14 +23,14 @@
 .team__title h2 {
 	text-align: left;
 	font-feature-settings: "clig" off, "liga" off;
-	font-size: clamp(1.3451rem, 3vw, 2rem);
+	font-size: clamp(1.3451rem, 2vw, 2rem);
 	font-weight: 600;
 	line-height: 120%; /* 2.4rem */
 	margin-bottom: 0.8rem;
 }
 
 .team__title p {
-	font-size: clamp(0.5605rem, 3vw, 1rem);
+	font-size: clamp(0.5605rem, 2vw, 1rem);
 	font-weight: 400;
 	line-height: normal;
 }
@@ -59,7 +59,7 @@
 .person3 {
 	--_img-background: var(--color-yellow);
 	border-radius: 50%;
-	width: 4rem;
+	width: clamp(2.5781rem, 2vw, 4rem);
 	background: var(--_img-background);
 }
 
@@ -111,17 +111,26 @@
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	gap: 0.6rem;
-	padding-inline: 1.5rem;
+	gap: clamp(0.3rem, 2vw, 0.6rem);
+	padding-inline: clamp(0.84rem, 2vw, 1.5rem);
 	border-radius: 0.8rem;
-	min-width: 21rem;
-	min-height: 4.8rem;
+	width: 75%;
+	padding-block: clamp(0.67rem, 2vw, 1.2rem);
+}
+
+.agenda__item img {
+	width: clamp(1.3451rem, 2vw, 2.4rem);
 }
 
 .agenda__item p {
-	font-size: 1rem;
+	font-size: clamp(0.5605rem, 2vw, 1rem);
 	font-weight: 500;
 	line-height: normal;
+}
+
+.agenda__imgs {
+	display: flex;
+	flex-direction: row;
 }
 
 .agenda__imgs img {

@@ -12,7 +12,7 @@
 	border: none;
 
 	color: var(--color-white-100);
-	font-size: clamp(1.6rem, 3vw, var(--fs-500));
+	font-size: clamp(1.6rem, 2vw, var(--fs-500));
 	font-weight: 500;
 	line-height: 150%;
 
@@ -27,7 +27,7 @@
 }
 
 .button__primary--small {
-	padding: 1.2rem 2rem;
+	padding: clamp(0.45rem, 2vw, 1.2rem) clamp(0.9rem, 2vw, 2rem);
 	border-radius: 0.8rem;
 }
 
